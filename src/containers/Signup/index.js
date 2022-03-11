@@ -39,7 +39,7 @@ const Signup = (props) => {
     dispatch(signup(user));
   };
   if (auth.authenticate) {
-    return <Redirect to={"/"} />;
+    return <Redirect to={"/react-admin-electronic"} />;
   }
 
   if (user.loading) {

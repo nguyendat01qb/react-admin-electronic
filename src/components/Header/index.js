@@ -29,12 +29,12 @@ const Header = (props) => {
       <Nav>
         {/* <Nav.Link href="#deets">Signin</Nav.Link> */}
         <li className="nav-item">
-          <NavLink to="/signin" className="nav-link">
+          <NavLink to="/react-admin-electronic/signin" className="nav-link">
             Đăng nhập
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/signup" className="nav-link">
+          <NavLink to="/react-admin-electronic/signup" className="nav-link">
             Đăng ký
           </NavLink>
         </li>
@@ -53,7 +53,7 @@ const Header = (props) => {
     >
       <Container fluid>
         {/* <Navbar.Brand href="#home">Admin Dashboard</Navbar.Brand> */}
-        <Link to="/" className="navbar-brand">
+        <Link to="/react-admin-electronic/" className="navbar-brand">
           Trang quản trị
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
