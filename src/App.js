@@ -29,14 +29,27 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <PrivateRoute path="/" exact component={Home} />
-        <PrivateRoute path="/users" exact component={Users} />
-        <PrivateRoute path="/page" component={NewPage} />
-        <PrivateRoute path="/categories" component={Categories} />
-        <PrivateRoute path="/products" component={Products} />
-        <PrivateRoute path="/orders" component={Orders} />
-        <Route path="/signin" component={Signin} />
-        <Route path="/signup" component={Signup} />
+        <PrivateRoute path="/react-admin-electronic/" exact component={Home} />
+        <PrivateRoute
+          path="/react-admin-electronic/users"
+          exact
+          component={Users}
+        />
+        <PrivateRoute path="/react-admin-electronic/page" component={NewPage} />
+        <PrivateRoute
+          path="/react-admin-electronic/categories"
+          component={Categories}
+        />
+        <PrivateRoute
+          path="/react-admin-electronic/products"
+          component={Products}
+        />
+        <PrivateRoute
+          path="/react-admin-electronic/orders"
+          component={Orders}
+        />
+        <Route path="/react-admin-electronic/signin" component={Signin} />
+        <Route path="/react-admin-electronic/signup" component={Signup} />
       </Switch>
     </div>
   );

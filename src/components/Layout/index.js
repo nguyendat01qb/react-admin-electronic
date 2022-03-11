@@ -14,26 +14,32 @@ const Layout = (props) => {
             <Col md={2} className="sidebar">
               <ul>
                 <li>
-                  <NavLink exact to={"/"}>
+                  <NavLink exact to={"/react-admin-electronic/"}>
                     Trang chủ
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink exact to={"/users"}>
+                  <NavLink exact to={"/react-admin-electronic/users"}>
                     Người dùng
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/page"}>Trang</NavLink>
+                  <NavLink to={"/react-admin-electronic/page"}>Trang</NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/categories"}>Loại sản phẩm</NavLink>
+                  <NavLink to={"/react-admin-electronic/categories"}>
+                    Loại sản phẩm
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/products"}>Sản phẩm</NavLink>
+                  <NavLink to={"/react-admin-electronic/products"}>
+                    Sản phẩm
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to={"/orders"}>Đặt hàng</NavLink>
+                  <NavLink to={"/react-admin-electronic/orders"}>
+                    Đặt hàng
+                  </NavLink>
                 </li>
               </ul>
             </Col>
